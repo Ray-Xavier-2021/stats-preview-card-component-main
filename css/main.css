@@ -260,6 +260,12 @@
         flex-direction: row-reverse;
         min-height: 400px;
     }
+    .info {
+        padding: 70px;
+    }
+    .main-heading, #main-paragraph {
+        text-align: left;
+    }
     .statistics {
         display: flex;
         justify-content: space-between;
