@@ -92,11 +92,11 @@
      /* Basic Styles */
      body {
         font-size: 15px;
+        background-color: hsl(243, 47%, 7%);
         display: flex;        
         justify-content: center; 
         align-items: center;
         flex-direction: column;
-        background-color: hsl(243, 47%, 7%);
      }
 
      .img {
@@ -249,14 +249,25 @@
      Modify as content requires.
      ========================================================================== */
   
-  @media only screen and (min-width: 1400px) {
+  @media only screen and (min-width: 1280px) {
     /* Desktop Layout */
     .img {
         background-image: url(../images/image-header-desktop.jpg);
-        height: 100%;
     }
-    
-  }
+    #card {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        min-height: 400px;
+    }
+    .statistics {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+  
+    }
   
   @media print,
     (-webkit-min-device-pixel-ratio: 1.25),
